@@ -6,4 +6,3 @@ import axios from "axios";
 
 export const getTodoById = (id) => 
 axios.get(process.env.REACT_APP_BASE_URL + `/todos/${id}`);
-
